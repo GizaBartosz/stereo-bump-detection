@@ -1,0 +1,77 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage} 
+\usepackage[margin=2.5cm, headheight=15pt]{geometry} 
+\usepackage{xcolor} 
+\usepackage{url}
+
+\definecolor{ProjectColor}{RGB}{0, 82, 155} % Ciemny niebieski
+
+\newcommand{\FullTitle}{Aplikacja służąca do rozpoznawania ubytków w drogach na podstawie pary zdjęć z kamery stereoskopowej}
+\newcommand{\ShortTitle}{Inteligentna kamera stereoskopowa}
+\newcommand{\DocType}{TYTUŁ}
+\newcommand{\Authors}{T. Shuliakevych, B. Lewczuk}
+\newcommand{\DocDate}{\today}
+
+
+\pagestyle{fancy}
+\fancyhf{} 
+
+% Nagłówek
+\lhead{\textcolor{ProjectColor}{\textbf{\ShortTitle}}}
+\rhead{\DocType} 
+
+% Stopka
+\lfoot{\footnotesize \Authors} 
+\cfoot{\footnotesize \thepage}
+\rfoot{\DocDate}
+
+% Pokolorowanie linii oddzielających
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{ProjectColor}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{ProjectColor}\leaders\hrule height \footrulewidth\hfill}}
+
+
+\begin{document}
+
+% --- STRONA TYTUŁOWA ---
+\begin{titlepage}
+    \centering
+    
+    % Miejsce na logo uczelni / wydziału / zespołu
+    % \includegraphics[width=0.3\textwidth]{logo.png}\par\vspace{1cm}
+    \vspace*{2cm}
+    
+    {\scshape\Large dokumentacja projektowa \par}
+    \vspace{1.5cm}
+    
+    % Pełny, długi tytuł w ładnej oprawie
+    {\Huge\bfseries\textcolor{ProjectColor}{\FullTitle} \par}
+    \vspace{2cm}
+    
+    {\Large\itshape \DocType \par}
+    \vspace{2cm}
+    
+    \vfill
+    
+\end{titlepage}
+
+% --- RESZTA DOKUMENTU ---
+\newpage
+
+\section{AAA}
+\subsection{aaaa}
+Lorem Ipsum
+
+\subsection{bbbb}
+Lorem Ipsum
+
+
+
+\end{document}
