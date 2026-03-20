@@ -8,7 +8,7 @@ Aplikacja służy do automatycznego rozpoznawania ubytków w nawierzchni drogowe
 
 System analizuje dwa zsynchronizowane obrazy tej samej sceny, wykonane z niewielkim przesunięciem, co umożliwia rekonstrukcję głębi i określenie geometrii powierzchni jezdni. Dzięki temu możliwe jest nie tylko wykrycie ubytku, ale również oszacowanie jego parametrów przestrzennych, takich jak głębokość czy objętość.
 
-Rozwiązanie jest niskokosztowe i może być stosowane w szerokiej skali, między innymi w pojazdach osobowych, systemach wspomagania kierowcy oraz systemach monitorowania infrastruktury drogowej. W porównaniu do systemów LiDAR jest znacznie tańsze i łatwiejsze do wdrożenia, przy zachowaniu wysokiej użyteczności. :contentReference[oaicite:0]{index=0}
+Rozwiązanie jest niskokosztowe i może być stosowane w szerokiej skali, między innymi w pojazdach osobowych, systemach wspomagania kierowcy oraz systemach monitorowania infrastruktury drogowej. W porównaniu do systemów LiDAR jest znacznie tańsze i łatwiejsze do wdrożenia, przy zachowaniu wysokiej użyteczności.
 
 Aplikacja może działać jako niezależny moduł lub jako rozszerzenie istniejących systemów pojazdu, dostarczając w czasie rzeczywistym informacji o zagrożeniach na drodze, co zwiększa bezpieczeństwo jazdy oraz ogranicza ryzyko uszkodzeń pojazdu.
 
